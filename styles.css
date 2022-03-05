@@ -3,10 +3,8 @@ body {
 }
 
 @font-face {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Aria'), url(https://makasiini.hel.ninja/delivery/HelsinkiGrotesk/565d73a693abe0776c801607ac28f0bf.woff) format('woff');
+    font-family: 'HelsinkiGrotesk';
+    src: local('Arial'), url(https://makasiini.hel.ninja/delivery/HelsinkiGrotesk/565d73a693abe0776c801607ac28f0bf.woff) format('woff');
     font-display: swap;
   }
 
