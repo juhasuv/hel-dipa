@@ -1,3 +1,9 @@
 body {
     font-family: HelsinkiGrotesk, Arial, sans-serif;
+    font-display: swap;
+}
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
