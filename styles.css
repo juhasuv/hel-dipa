@@ -2,21 +2,22 @@ body {
     font-family: HelsinkiGrotesk, Arial, sans-serif;
 }
 
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 h1 {
-    /*    background: #00d7a7;
-    background: #cffaf1;
-    */
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
-    padding-top: 1em;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
 }
 
 p {
     margin: 0;
 }
 
-.navbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
