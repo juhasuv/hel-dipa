@@ -12,7 +12,7 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-h2 {
+h2,h3 {
     margin-top: 1rem;
     margin-bottom: 0.25rem;
 }
@@ -21,3 +21,12 @@ p {
     margin: 0;
 }
 
+.link-danger {
+    text-decoration-style: wavy;
+}
+
+.copper {
+    text-decoration-style: solid;
+    background: #00d7a7;
+    color: white;
+}
