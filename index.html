@@ -12,7 +12,7 @@
     <!-- Custom styles -->
     <link href="styles.css" rel="stylesheet">
     <!-- Helsinki Grotesk font -->
-    <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://makasiini.hel.ninja/delivery/HelsinkiGrotesk/HelsinkiGrotesk.css' type="text/css"/>
+    <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://makasiini.hel.ninja/delivery/HelsinkiGrotesk/HelsinkiGrotesk.css' type="text/css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -23,7 +23,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="navbar">
       <div class="container">
-        <img src="helsinki.svg" width="78" height="36" alt="vaakuna" role=img aria-hidden=true>
+        <img src="helsinki.svg" width="78" height="36" alt="vaakuna" aria-hidden=true>
       </div>
     </nav>
     <main class="container">
@@ -33,15 +33,16 @@
         <h1 class="">Digitalisaatioyksikkö</h1>
           <p class="lead">Kaupunginkanslian digitalisaatioyksikön vastuulla ovat kaupunkiyhteiset digitaaliset palvelut ja niihin liittyvät alustat ja ratkaisut. Yksikössä on neljä tiimiä: digitaaliset palvelut, data ja analytiikka, ICT-asiantuntijapalvelut ja kaupunkiyhteiset sovelluspalvelut.</p>
         <img src="digitalisaatioyksikko.png" alt="digitalisaatioyksikko">
-        <h1>Palvelut, ohjeistukset ja työkalut</h1>
+        <h1>Palvelut, projektit, ohjeistukset ja työkalut</h1>
           <p class="lead mb-5">Tälle sivulle on koostettu linkkejä tärkeimpiin sivustoihin, palveluihin, ohjeistuksiin ja työkaluihin. 🧙‍♀️💾🤹‍♂️</p>
 
-          <h2>Tukea kehittämiseen</h2>
+          <h2 id="kehy">Kehittämisen palvelut</h2>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Kehittamisen-palvelut/SitePages/Tukea-kehitt%C3%A4miseen.aspx">Tukea kehittämiseen</a></p>    
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Kehittamisen-palvelut/SitePages/Ohjelma-ja-projektimalli.aspx">Ohjelma- ja projektimalli</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Kehittamisen-palvelut/SitePages/Muutosjohtaminen.aspx">Muutosjohtaminen</a></p>
         
-          <h2>Kehittämisen tuki (Ketu) -tiimi</h2>
+          <h2 id="dipa">Digitaaliset palvelut ja Kehittämisen tuki (Ketu)</h2>
+            <p><a href="https://helsinginkaupunki.sharepoint.com/Sites/Intra-Digitaaliset-palvelut">Digitaaliset palvelut</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Digitaaliset-palvelut/SitePages/Kehitt%C3%A4misen-tuki-(Ketu).aspx">Kehittämisen tuki</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Digitaaliset-palvelut/SitePages/Osaamiskeskus.aspx">Osaamiskeskus</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Digitaaliset-palvelut/SitePages/Kokonaisarkkitehtuuri.aspx">Kokonaisarkkitehtuuri</a></p>
@@ -50,7 +51,7 @@
             <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/HELFI/overview">Platta</a></p>    
             <p><a href="https://api.hel.fi" class="link-danger">api.hel.fi</a></p>
         
-          <h2>Muotoilu, Helsinki Design System (HDS) ja saavutettavuus</h2>
+          <h2 id="muotoilu">Muotoilu, Helsinki Design System (HDS) ja saavutettavuus</h2>
             <p><a href="https://design.hel.fi/">design.hel.fi</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Kehittamisen-palvelut/SitePages/Palvelumuotoilu.aspx">Palvelumuotoilu</a></p>
             <p><a href="https://hds.hel.fi">hds.hel.fi</a></p>
@@ -59,40 +60,43 @@
             <p><a href="https://saavutettavuusmalli.hel.fi">saavutettavuusmalli.hel.fi</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/sites/Intra-Digitaaliset-palvelut/SitePages/Saavutettavuuspalvelut.aspx">Saavutettavuuspalvelut</a></p>        
         
-          <h2>Hel.fi-uudistus</h2>
+          <h2 id="helfi">Hel.fi-uudistus</h2>
             <p><a href="https://hel.fi">hel.fi</a></p>
             <p><a href="https://uusi.hel.fi">uusi.hel.fi</a></p>
             <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/HEL/pages">Hel.fi-dokumentaatio</a></p>
         
-          <h2>Sähköinen asiointi</h2>
+          <h2 id="asiointi">Sähköinen asiointi</h2>
             <p><a href="https://asiointi.hel.fi">asiointi.hel.fi</a></p>
             <p><a href="https://lomaketyokalu.dev.hel.ninja/">Lomaketyökalu</a></p>
-            <p><a href="https://atv-api-hki-kanslia-atv-prod.apps.platta.hel.fi/">atv-api-hki-kanslia-atv-prod.apps.platta.hel.fi</a></p>
-            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/7782072434/Ty+nkulkuratkaisu">Työnkulkuratkaisu</a></p>
-        
-          <h2>WordPress-portaali ja ohjeet</h2>
-            <p><a href="https://wordpress.hel.fi">wordpress.hel.fi</a></p>
-            <p><a href="https://wordpressohjeet.hel.fi">wordpressohjeet.hel.fi</a></p>
-        
-          <h2>Autentikointi, Tunnistamo + Helsinki-profiili ja OmaData</h2>
+            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/2646638607/Palvelukohtainen+asiointitietovaranto+ATV">ATV-dokumentaatio</a></p>
+            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/7782072434/Ty+nkulkuratkaisu">Työnkulkuratkaisu-dokumentaatio</a></p>
+
+          <h2 id="profiili">Autentikointi, Tunnistamo + Helsinki-profiili ja OmaData</h2>
             <p><a href="https://profiili.hel.fi">profiili.hel.fi</a></p>
             <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/236060735/Helsinki-profiili">Helsinki-profiilin dokumentaatio</a></p>
             <p><a href="https://tunnistamo.hel.fi" class="link-danger">tunnistamo.hel.fi</a></p>
-            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/848003128/OmaData+MyData+hanke">OmaData-hanke</a></p>
+            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/848003128/OmaData+MyData+hanke">OmaData-hankedokumentaatio</a></p>            
+            
+          <h2 id="wordpress">WordPress-portaali ja ohjeet</h2>
+            <p><a href="https://wordpress.hel.fi">wordpress.hel.fi</a></p>
+            <p><a href="https://wordpressohjeet.hel.fi">wordpressohjeet.hel.fi</a></p>
+            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/WOR/">WordPress-dokumentaatio</a></p>
+            <p><a href="">WordPress-tiekartta</a></p>
+            <p><a href="">WordPress-verkosto</a></p>
+
+          <h2 id="varaamo">Tilavaraukset (Varaamo)</h2>
+            <p><a href="https://varaamo.hel.fi">varaamo.hel.fi</a></p>
+            <p><a href="https://tilavaraus.hel.fi">tilavaraus.hel.fi</a></p>
+            <p><a href="https://juhasuv.github.io/hel-tilavaraus/">Tilavarausprojekti</a></p> 
+            <p><a href="https://gitlab.com/City-of-Helsinki/ohjelmistokehitys/-/wikis/Tilavarauspalvelu">Tilavarauspalvelu-dokumentaatio</a></p> 
+            <p><a href="https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tilavaraukset-ja-avustukset/varaa-tila">Tilavaraukset ja avustukset -sivusto</a></p>
         
-          <h2>Yritysten ja järjestöjen digitaalinen Helsinki (YJDH)</h2>
-            <p><a href="https://nuortenkesaseteli.hel.fi">nuortenkesaseteli.hel.fi</a></p>
-            <p><a href="https://helsinkilisa.hel.fi">helsinkilisa.hel.fi</a></p>
-            <p><a href="https://tet.hel.fi/">tet.hel.fi</a></p>
-            <p><a href="https://tet-ilmoitus.hel.fi/">tet-ilmoitus.hel.fi</a></p>
-            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/2653847559/Yritysten+ja+j+rjest+jen+digitaalinen+Helsinki+YJDH">Dokumentaatio</a></p>
-        
-          <h2>Tapahtuma-alusta (LinkedEvents)</h2>
+          <h2 id="linked">Tapahtuma-alusta (LinkedEvents)</h2>
             <p><a href="https://linkedevents.hel.fi">linkedevents.hel.fi</a></p>
             <p><a href="https://linkedregistrations-ui.test.kuva.hel.ninja/fi/registration/16/enrolment/create">linkedregistrations-ui.test.kuva.hel.ninja</a></p>
             <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/951123993/Linked+Events">LinkedEvents-dokumentaatio</a></p>
         
-          <h2>Osallisuus</h2>
+          <h2 id="osallisuus">Osallisuus</h2>
             <p><a href="https://kerrokantasi.hel.fi">kerrokantasi.hel.fi</a></p>
             <p><a href="https://omastadi.hel.fi">omastadi.hel.fi</a></p>
             <p><a href="https://nuortenbudjetti.hel.fi">nuortenbudjetti.hel.fi</a></p>
@@ -100,17 +104,22 @@
             <p><a href="https://kokeilukiihdyttamo.hel.fi">kokeilukiihdyttamo.hel.fi</a></p>
             <p><a href="https://www.hel.fi/fi/paatoksenteko-ja-hallinto/osallistu-ja-vaikuta">Osallistu ja vaikuta -teemasivusto</a></p>
         
-          <h2>Tilavaraukset (Varaamo)</h2>
-            <p><a href="https://varaamo.hel.fi">varaamo.hel.fi</a></p>
-            <p><a href="gitlab.com/City-of-Helsinki/ohjelmistokehitys/-/wikis/Tilavarauspalvelu">Varaamo-dokumentaatio</a></p> 
-            <p><a href="https://tilavaraus.hel.fi">tilavaraus.hel.fi</a></p>
-            <p><a href="https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tilavaraukset-ja-avustukset/varaa-tila">Tilavaraukset ja avustukset -sivusto</a></p>
+          <h2 id="yjdh">Yritysten ja järjestöjen digitaalinen Helsinki (YJDH)</h2>
+            <p><a href="https://nuortenkesaseteli.hel.fi">nuortenkesaseteli.hel.fi</a></p>
+            <p><a href="https://helsinkilisa.hel.fi">helsinkilisa.hel.fi</a></p>
+            <p><a href="https://tet.hel.fi/">tet.hel.fi</a></p>
+            <p><a href="https://tet-ilmoitus.hel.fi/">tet-ilmoitus.hel.fi</a></p>
+            <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/spaces/KAN/pages/2653847559/Yritysten+ja+j+rjest+jen+digitaalinen+Helsinki+YJDH">Dokumentaatio</a></p>
             
-          <h2>Toimipisterekisteri (TPR) -perhe</h2>
+          <h2 id="tpr">Kaupunki alustana ja Toimipisterekisteri (TPR) -perhe</h2>
+            <p><a href="https://kaupunkialustana.hel.fi/">kaupunkialustana.hel.fi</a></p>
             <p><a href="https://asiointi.hel.fi/tprperhe">asiointi.hel.fi/tprperhe</a></p>
             <p><a href="https://palvelukartta.hel.fi">palvelukartta.hel.fi</a></p>
             <p><a href="https://aukioloajat.hel.fi">aukioloajat.hel.fi</a></p>
             <p><a href="https://www.hel.fi/static/liitteet-2019/Kaupunginkanslia/TPR/Toimipisterekisteriperheen_kasikirja_1_0.pdf">TPR-käsikirja</a></p>        
+            
+          <h2>-</h2>
+            <p><a href="https://www.helsinkikanava.fi/">Helsinki-kanava</a></p>
 
         <h1>💼</h1>
           <h2>Työkalut</h2>
@@ -122,7 +131,7 @@
             <p><a href="https://teams.microsoft.com/l/channel/19%3a082f08379e804fb6bbe44f4d82c65f1c%40thread.tacv2/Digitaaliset%2520palvelut?groupId=7b374eec-354b-46f9-8cf5-4c5ec54952b5&tenantId=3feb6bc1-d722-4726-966c-5b58b64df752">Pikaviestintä (Teams)</a></p>
             <p><a href="https://helsinginkaupunki.sharepoint.com/:f:/s/KANSLIADigitalisaatioyksikk2/EnW065pPXsVLjBapKVQlRnUBuhAcLhRgBCxysZJyfU3IeA?e=ZkUDZJ">Tiimin dokumentaatiot (SharePoint)</a></p>
 
-          <h3></h3>
+          <h3>-</h3>
             <p><a href="https://www.hel.fi/helsinki/fi/kaupunki-ja-hallinto/paatoksenteko/viranhaltijapaatokset/">Viranhaltijapaatokset</a></p>
             <p><a href="https://ahjo.hel.fi/navigator/?desktop=icm">Asianhallinta (Ahjo)</a></p>
             <p><a href="https://login.cloudia.net/user/login/Helsingin%20kaupunki">Sopimukset (Cloudia)</a></p>
@@ -138,7 +147,7 @@
             <p><a href="https://helsinki.service-now.com/sp/">Stadin Helpdesk</a></p>
             <p><a href="https://huonevaraus.hel.fi/">Huonevaraus</a></p>
 
-          <h3></h3>
+          <h3>-</h3>
             <p><a href="https://helsinkicity.slack.com/">Slack</a></p>
             <p><a href="https://helsinkisolutionoffice.atlassian.net/jira/">Jira</a></p>
             <p><a href="https://helsinkisolutionoffice.atlassian.net/wiki/home">Confluence</a></p>
@@ -151,7 +160,7 @@
             <p><a href="https://console-openshift-console.apps.arodevtest.hel.fi/">OpenShift (testi)</a></p>
             <p><a href="https://www.miro.com/">Miro</a></p>
 
-          <h3></h3>
+          <h3>-</h3>
             <p><a href="https://www.office.com/?auth=2">Office 365</a></p>
             <p><a href="https://helsinginkaupunki-my.sharepoint.com/">OneDrive</a></p>
             <p><a href="https://web.yammer.com/main/feed">Yammer</a></p>
